@@ -30,7 +30,7 @@ jobs:
       run: npm install -g surge
     
     - name: Deploy App on Surge
-      run: surge ./ ahmed-bootcamp2020.surge.sh --token ${{secret.MY_APP_TOKEN}}
+      run: surge ./ ahmed-bootcamp2020.surge.sh --token ${{secrets.MY_APP_TOKEN}}
     
       
      
